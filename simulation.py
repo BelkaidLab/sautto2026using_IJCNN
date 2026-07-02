@@ -108,5 +108,5 @@ if __name__ == "__main__":
 
 
     if mode == 2: # Random Search parset generation 
-        generateParameters(models=['FULLINH'])
+        generateParameters()
         quit()
