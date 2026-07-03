@@ -11,7 +11,8 @@ This repository contains code and materials related to article Sautto et al., IJ
 _(TBD)_
 
 ## About the code
-This codebase is programmed in Python, and requires dependencies as listed in the file 'environment.yml', which can be used to generate an appropriate virtual environment.
+This codebase is programmed in Python, and requires dependencies as listed in the file 'environment.yml', which can be used to generate an appropriate virtual environment. 
+The spiking neural network models in this codebase are simulated using the Brian2 software (Stimber et al., 2019)
 
 To run this code and generate the results shown in the paper, once all dependencies have been installed, the following operations will need to be performed:
 1. Open the file simulation.py and set the 'mode' variable to 2. Run the python script to generate the parameter variations used for the random search. 
@@ -25,6 +26,7 @@ The code is based on the spiking neural network model found developed by Belkaid
 ### References 
 - Belkaid and Krichmar, "Modeling Uncertainty-Seeking Behavior Mediated by Cholinergic Influence on Dopamine", Neural Networks, 2020.
 - Naudé et al., "Nicotinic receptors in the ventral tegmental area promote uncertainty-seeking", Nature Neuroscience, 2016.
+- Stimber et al., "Brian 2, an Intuitive and Efficient Neural Simulator.", eLife, (2019).
 
 
 
