@@ -14,9 +14,9 @@ _(TBD)_
 This codebase is programmed in Python, and requires dependencies as listed in the file 'environment.yml', which can be used to generate an appropriate virtual environment. 
 The spiking neural network models in this codebase are simulated using the Brian2 software (Stimber et al., 2019)
 
-To run this code and generate the results shown in the paper, once all dependencies have been installed, the following operations will need to be performed:
-1. Open the file simulation.py and set the 'mode' variable to 2. Run the python script to generate the parameter variations used for the random search. 
-2. Set the 'mode' variable to 1 and close the file.
+To run this code and generate the results shown in the paper, once all dependencies have been installed, the following operations will need to be performed: 
+1. Open the file simulation.py and set the 'mode' variable to 2. This will make it so that the script will execute the function to generate the parameter variations used for the random search. 
+2. Set the 'mode' variable to 1 and close the file. This will make it so that, when run, the script will execute the simulation of a given parameter variation.
 3. Open the file 'Run.sh' and modify line 14 so that the fist token points to the python executable of your virtual environment, and the second one to the file 'simulation.py'
 4. To run Experiment 1, leave lines 3 and 6 uncommented, and lines 4 and 7 commented; then run the script.
 5. To run Experiment 2, comment out lines 3 and 6, and uncomment lines 4 and 7; then run the script.
